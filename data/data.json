@@ -1,5 +1,5 @@
 {
-    "ASCII_TABLE": [
+    "CONTROL_CHARACTER": [
         {
             "DEX": "0",
             "HEX": "0",
@@ -232,6 +232,15 @@
             "CHARACTER": "space"
         },
         {
+            "DEX": "127",
+            "HEX": "7F",
+            "BINARY": "1111111",
+            "HTML": "&#127;",
+            "CHARACTER": "DEL"
+        }
+    ],
+    "SYMBOLS": [
+        {
             "DEX": "33",
             "HEX": "21",
             "BINARY": "100001",
@@ -337,6 +346,127 @@
             "CHARACTER": "/"
         },
         {
+            "DEX": "58",
+            "HEX": "3A",
+            "BINARY": "111010",
+            "HTML": "&#58;",
+            "CHARACTER": ":"
+        },
+        {
+            "DEX": "59",
+            "HEX": "3B",
+            "BINARY": "111011",
+            "HTML": "&#59;",
+            "CHARACTER": ";"
+        },
+        {
+            "DEX": "60",
+            "HEX": "3C",
+            "BINARY": "111100",
+            "HTML": "&#60;",
+            "CHARACTER": "<"
+        },
+        {
+            "DEX": "61",
+            "HEX": "3D",
+            "BINARY": "111101",
+            "HTML": "&#61;",
+            "CHARACTER": "="
+        },
+        {
+            "DEX": "62",
+            "HEX": "3E",
+            "BINARY": "111110",
+            "HTML": "&#62;",
+            "CHARACTER": ">"
+        },
+        {
+            "DEX": "63",
+            "HEX": "3F",
+            "BINARY": "111111",
+            "HTML": "&#63;",
+            "CHARACTER": "?"
+        },
+        {
+            "DEX": "64",
+            "HEX": "40",
+            "BINARY": "1000000",
+            "HTML": "&#64;",
+            "CHARACTER": "@"
+        },
+        {
+            "DEX": "91",
+            "HEX": "5B",
+            "BINARY": "1011011",
+            "HTML": "&#91;",
+            "CHARACTER": "["
+        },
+        {
+            "DEX": "92",
+            "HEX": "5C",
+            "BINARY": "1011100",
+            "HTML": "&#92;",
+            "CHARACTER": "\\"
+        },
+        {
+            "DEX": "93",
+            "HEX": "5D",
+            "BINARY": "1011101",
+            "HTML": "&#93;",
+            "CHARACTER": "]"
+        },
+        {
+            "DEX": "94",
+            "HEX": "5E",
+            "BINARY": "1011110",
+            "HTML": "&#94;",
+            "CHARACTER": "^"
+        },
+        {
+            "DEX": "95",
+            "HEX": "5F",
+            "BINARY": "1011111",
+            "HTML": "&#95;",
+            "CHARACTER": "_"
+        },
+        {
+            "DEX": "96",
+            "HEX": "60",
+            "BINARY": "1100000",
+            "HTML": "&#96;",
+            "CHARACTER": "`"
+        },
+        {
+            "DEX": "123",
+            "HEX": "7B",
+            "BINARY": "1111011",
+            "HTML": "&#123;",
+            "CHARACTER": "{"
+        },
+        {
+            "DEX": "124",
+            "HEX": "7C",
+            "BINARY": "1111100",
+            "HTML": "&#124;",
+            "CHARACTER": "|"
+        },
+        {
+            "DEX": "125",
+            "HEX": "7D",
+            "BINARY": "1111101",
+            "HTML": "&#125;",
+            "CHARACTER": "}"
+        },
+        {
+            "DEX": "126",
+            "HEX": "7E",
+            "BINARY": "1111110",
+            "HTML": "&#126;",
+            "CHARACTER": "~"
+        }
+    ],
+    "NUMBERS": [
+        {
             "DEX": "48",
             "HEX": "30",
             "BINARY": "110000",
@@ -405,56 +535,9 @@
             "BINARY": "111001",
             "HTML": "&#57;",
             "CHARACTER": "9"
-        },
-        {
-            "DEX": "58",
-            "HEX": "3A",
-            "BINARY": "111010",
-            "HTML": "&#58;",
-            "CHARACTER": ":"
-        },
-        {
-            "DEX": "59",
-            "HEX": "3B",
-            "BINARY": "111011",
-            "HTML": "&#59;",
-            "CHARACTER": ";"
-        },
-        {
-            "DEX": "60",
-            "HEX": "3C",
-            "BINARY": "111100",
-            "HTML": "&#60;",
-            "CHARACTER": "<"
-        },
-        {
-            "DEX": "61",
-            "HEX": "3D",
-            "BINARY": "111101",
-            "HTML": "&#61;",
-            "CHARACTER": "="
-        },
-        {
-            "DEX": "62",
-            "HEX": "3E",
-            "BINARY": "111110",
-            "HTML": "&#62;",
-            "CHARACTER": ">"
-        },
-        {
-            "DEX": "63",
-            "HEX": "3F",
-            "BINARY": "111111",
-            "HTML": "&#63;",
-            "CHARACTER": "?"
-        },
-        {
-            "DEX": "64",
-            "HEX": "40",
-            "BINARY": "1000000",
-            "HTML": "&#64;",
-            "CHARACTER": "@"
-        },
+        }
+    ],
+    "UPPERCASE_ALPHABET": [
         {
             "DEX": "65",
             "HEX": "41",
@@ -636,49 +719,9 @@
             "BINARY": "1011010",
             "HTML": "&#90;",
             "CHARACTER": "Z"
-        },
-        {
-            "DEX": "91",
-            "HEX": "5B",
-            "BINARY": "1011011",
-            "HTML": "&#91;",
-            "CHARACTER": "["
-        },
-        {
-            "DEX": "92",
-            "HEX": "5C",
-            "BINARY": "1011100",
-            "HTML": "&#92;",
-            "CHARACTER": "\\"
-        },
-        {
-            "DEX": "93",
-            "HEX": "5D",
-            "BINARY": "1011101",
-            "HTML": "&#93;",
-            "CHARACTER": "]"
-        },
-        {
-            "DEX": "94",
-            "HEX": "5E",
-            "BINARY": "1011110",
-            "HTML": "&#94;",
-            "CHARACTER": "^"
-        },
-        {
-            "DEX": "95",
-            "HEX": "5F",
-            "BINARY": "1011111",
-            "HTML": "&#95;",
-            "CHARACTER": "_"
-        },
-        {
-            "DEX": "96",
-            "HEX": "60",
-            "BINARY": "1100000",
-            "HTML": "&#96;",
-            "CHARACTER": "`"
-        },
+        }
+    ],
+    "LOWECASE_ALPHABET": [
         {
             "DEX": "97",
             "HEX": "61",
