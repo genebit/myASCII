@@ -4,238 +4,238 @@
             "CODE": "0",
             "HEX": "0",
             "BINARY": "0",
-            "HTML": "&# 0;",
+            "HTML": "&#0;",
             "CHARACTER": "NUL"
         },
         {
             "CODE": "1",
             "HEX": "1",
             "BINARY": "1",
-            "HTML": "&# 1;",
+            "HTML": "&#1;",
             "CHARACTER": "SOH"
         },
         {
             "CODE": "2",
             "HEX": "2",
             "BINARY": "10",
-            "HTML": "&# 2;",
+            "HTML": "&#2;",
             "CHARACTER": "STX"
         },
         {
             "CODE": "3",
             "HEX": "3",
             "BINARY": "11",
-            "HTML": "&# 3;",
+            "HTML": "&#3;",
             "CHARACTER": "ETX"
         },
         {
             "CODE": "4",
             "HEX": "4",
             "BINARY": "100",
-            "HTML": "&# 4;",
+            "HTML": "&#4;",
             "CHARACTER": "EOT"
         },
         {
             "CODE": "5",
             "HEX": "5",
             "BINARY": "101",
-            "HTML": "&# 5;",
+            "HTML": "&#5;",
             "CHARACTER": "ENQ"
         },
         {
             "CODE": "6",
             "HEX": "6",
             "BINARY": "110",
-            "HTML": "&# 6;",
+            "HTML": "&#6;",
             "CHARACTER": "ACK"
         },
         {
             "CODE": "7",
             "HEX": "7",
             "BINARY": "111",
-            "HTML": "&# 7;",
+            "HTML": "&#7;",
             "CHARACTER": "BEL"
         },
         {
             "CODE": "8",
             "HEX": "8",
             "BINARY": "1000",
-            "HTML": "&# 8;",
+            "HTML": "&#8;",
             "CHARACTER": "BS"
         },
         {
             "CODE": "9",
             "HEX": "9",
             "BINARY": "1001",
-            "HTML": "&# 9;",
+            "HTML": "&#9;",
             "CHARACTER": "HT"
         },
         {
             "CODE": "10",
             "HEX": "0A",
             "BINARY": "1010",
-            "HTML": "&# 10;",
+            "HTML": "&#10;",
             "CHARACTER": "LF"
         },
         {
             "CODE": "11",
             "HEX": "0B",
             "BINARY": "1011",
-            "HTML": "&# 11;",
+            "HTML": "&#11;",
             "CHARACTER": "VT"
         },
         {
             "CODE": "12",
             "HEX": "0C",
             "BINARY": "1100",
-            "HTML": "&# 12;",
+            "HTML": "&#12;",
             "CHARACTER": "FF"
         },
         {
             "CODE": "13",
             "HEX": "0D",
             "BINARY": "1101",
-            "HTML": "&# 13;",
+            "HTML": "&#13;",
             "CHARACTER": "CR"
         },
         {
             "CODE": "14",
             "HEX": "0E",
             "BINARY": "1110",
-            "HTML": "&# 14;",
+            "HTML": "&#14;",
             "CHARACTER": "SO"
         },
         {
             "CODE": "15",
             "HEX": "0F",
             "BINARY": "1111",
-            "HTML": "&# 15;",
+            "HTML": "&#15;",
             "CHARACTER": "SI"
         },
         {
             "CODE": "16",
             "HEX": "10",
             "BINARY": "10000",
-            "HTML": "&# 16;",
+            "HTML": "&#16;",
             "CHARACTER": "DLE"
         },
         {
             "CODE": "17",
             "HEX": "11",
             "BINARY": "10001",
-            "HTML": "&# 17;",
+            "HTML": "&#17;",
             "CHARACTER": "DC1"
         },
         {
             "CODE": "18",
             "HEX": "12",
             "BINARY": "10010",
-            "HTML": "&# 18;",
+            "HTML": "&#18;",
             "CHARACTER": "DC2"
         },
         {
             "CODE": "19",
             "HEX": "13",
             "BINARY": "10011",
-            "HTML": "&# 19;",
+            "HTML": "&#19;",
             "CHARACTER": "DC3"
         },
         {
             "CODE": "20",
             "HEX": "14",
             "BINARY": "10100",
-            "HTML": "&# 20;",
+            "HTML": "&#20;",
             "CHARACTER": "DC4"
         },
         {
             "CODE": "21",
             "HEX": "15",
             "BINARY": "10101",
-            "HTML": "&# 21;",
+            "HTML": "&#21;",
             "CHARACTER": "NAK"
         },
         {
             "CODE": "22",
             "HEX": "16",
             "BINARY": "10110",
-            "HTML": "&# 22;",
+            "HTML": "&#22;",
             "CHARACTER": "SYN"
         },
         {
             "CODE": "23",
             "HEX": "17",
             "BINARY": "10111",
-            "HTML": "&# 23;",
+            "HTML": "&#23;",
             "CHARACTER": "ETB"
         },
         {
             "CODE": "24",
             "HEX": "18",
             "BINARY": "11000",
-            "HTML": "&# 24;",
+            "HTML": "&#24;",
             "CHARACTER": "CAN"
         },
         {
             "CODE": "25",
             "HEX": "19",
             "BINARY": "11001",
-            "HTML": "&# 25;",
+            "HTML": "&#25;",
             "CHARACTER": "EM"
         },
         {
             "CODE": "26",
             "HEX": "1A",
             "BINARY": "11010",
-            "HTML": "&# 26;",
+            "HTML": "&#26;",
             "CHARACTER": "SUB"
         },
         {
             "CODE": "27",
             "HEX": "1B",
             "BINARY": "11011",
-            "HTML": "&# 27;",
+            "HTML": "&#27;",
             "CHARACTER": "ESC"
         },
         {
             "CODE": "28",
             "HEX": "1C",
             "BINARY": "11100",
-            "HTML": "&# 28;",
+            "HTML": "&#28;",
             "CHARACTER": "FS"
         },
         {
             "CODE": "29",
             "HEX": "1D",
             "BINARY": "11101",
-            "HTML": "&# 29;",
+            "HTML": "&#29;",
             "CHARACTER": "GS"
         },
         {
             "CODE": "30",
             "HEX": "1E",
             "BINARY": "11110",
-            "HTML": "&# 30;",
+            "HTML": "&#30;",
             "CHARACTER": "RS"
         },
         {
             "CODE": "31",
             "HEX": "1F",
             "BINARY": "11111",
-            "HTML": "&# 31;",
+            "HTML": "&#31;",
             "CHARACTER": "US"
         },
         {
             "CODE": "32",
             "HEX": "20",
             "BINARY": "100000",
-            "HTML": "&# 32;",
+            "HTML": "&#32;",
             "CHARACTER": "space"
         },
         {
             "CODE": "127",
             "HEX": "7F",
             "BINARY": "1111111",
-            "HTML": "&# 127;",
+            "HTML": "&#127;",
             "CHARACTER": "DEL"
         }
     ],
@@ -244,224 +244,224 @@
             "CODE": "33",
             "HEX": "21",
             "BINARY": "100001",
-            "HTML": "&# 33;",
+            "HTML": "&#33;",
             "CHARACTER": "!"
         },
         {
             "CODE": "34",
             "HEX": "22",
             "BINARY": "100010",
-            "HTML": "&# 34;",
+            "HTML": "&#34;",
             "CHARACTER": "\""
         },
         {
             "CODE": "35",
             "HEX": "23",
             "BINARY": "100011",
-            "HTML": "&# 35;",
+            "HTML": "&#35;",
             "CHARACTER": "#"
         },
         {
             "CODE": "36",
             "HEX": "24",
             "BINARY": "100100",
-            "HTML": "&# 36;",
+            "HTML": "&#36;",
             "CHARACTER": "$"
         },
         {
             "CODE": "37",
             "HEX": "25",
             "BINARY": "100101",
-            "HTML": "&# 37;",
+            "HTML": "&#37;",
             "CHARACTER": "%"
         },
         {
             "CODE": "38",
             "HEX": "26",
             "BINARY": "100110",
-            "HTML": "&# 38;",
+            "HTML": "&#38;",
             "CHARACTER": "&"
         },
         {
             "CODE": "39",
             "HEX": "27",
             "BINARY": "100111",
-            "HTML": "&# 39;",
+            "HTML": "&#39;",
             "CHARACTER": "'"
         },
         {
             "CODE": "40",
             "HEX": "28",
             "BINARY": "101000",
-            "HTML": "&# 40;",
+            "HTML": "&#40;",
             "CHARACTER": "("
         },
         {
             "CODE": "41",
             "HEX": "29",
             "BINARY": "101001",
-            "HTML": "&# 41;",
+            "HTML": "&#41;",
             "CHARACTER": ")"
         },
         {
             "CODE": "42",
             "HEX": "2A",
             "BINARY": "101010",
-            "HTML": "&# 42;",
+            "HTML": "&#42;",
             "CHARACTER": "*"
         },
         {
             "CODE": "43",
             "HEX": "2B",
             "BINARY": "101011",
-            "HTML": "&# 43;",
+            "HTML": "&#43;",
             "CHARACTER": "+"
         },
         {
             "CODE": "44",
             "HEX": "2C",
             "BINARY": "101100",
-            "HTML": "&# 44;",
+            "HTML": "&#44;",
             "CHARACTER": ","
         },
         {
             "CODE": "45",
             "HEX": "2D",
             "BINARY": "101101",
-            "HTML": "&# 45;",
+            "HTML": "&#45;",
             "CHARACTER": "-"
         },
         {
             "CODE": "46",
             "HEX": "2E",
             "BINARY": "101110",
-            "HTML": "&# 46;",
+            "HTML": "&#46;",
             "CHARACTER": "."
         },
         {
             "CODE": "47",
             "HEX": "2F",
             "BINARY": "101111",
-            "HTML": "&# 47;",
+            "HTML": "&#47;",
             "CHARACTER": "/"
         },
         {
             "CODE": "58",
             "HEX": "3A",
             "BINARY": "111010",
-            "HTML": "&# 58;",
+            "HTML": "&#58;",
             "CHARACTER": ":"
         },
         {
             "CODE": "59",
             "HEX": "3B",
             "BINARY": "111011",
-            "HTML": "&# 59;",
+            "HTML": "&#59;",
             "CHARACTER": ";"
         },
         {
             "CODE": "60",
             "HEX": "3C",
             "BINARY": "111100",
-            "HTML": "&# 60;",
+            "HTML": "&#60;",
             "CHARACTER": "<"
         },
         {
             "CODE": "61",
             "HEX": "3D",
             "BINARY": "111101",
-            "HTML": "&# 61;",
+            "HTML": "&#61;",
             "CHARACTER": "="
         },
         {
             "CODE": "62",
             "HEX": "3E",
             "BINARY": "111110",
-            "HTML": "&# 62;",
+            "HTML": "&#62;",
             "CHARACTER": ">"
         },
         {
             "CODE": "63",
             "HEX": "3F",
             "BINARY": "111111",
-            "HTML": "&# 63;",
+            "HTML": "&#63;",
             "CHARACTER": "?"
         },
         {
             "CODE": "64",
             "HEX": "40",
             "BINARY": "1000000",
-            "HTML": "&# 64;",
+            "HTML": "&#64;",
             "CHARACTER": "@"
         },
         {
             "CODE": "91",
             "HEX": "5B",
             "BINARY": "1011011",
-            "HTML": "&# 91;",
+            "HTML": "&#91;",
             "CHARACTER": "["
         },
         {
             "CODE": "92",
             "HEX": "5C",
             "BINARY": "1011100",
-            "HTML": "&# 92;",
+            "HTML": "&#92;",
             "CHARACTER": "\\"
         },
         {
             "CODE": "93",
             "HEX": "5D",
             "BINARY": "1011101",
-            "HTML": "&# 93;",
+            "HTML": "&#93;",
             "CHARACTER": "]"
         },
         {
             "CODE": "94",
             "HEX": "5E",
             "BINARY": "1011110",
-            "HTML": "&# 94;",
+            "HTML": "&#94;",
             "CHARACTER": "^"
         },
         {
             "CODE": "95",
             "HEX": "5F",
             "BINARY": "1011111",
-            "HTML": "&# 95;",
+            "HTML": "&#95;",
             "CHARACTER": "_"
         },
         {
             "CODE": "96",
             "HEX": "60",
             "BINARY": "1100000",
-            "HTML": "&# 96;",
+            "HTML": "&#96;",
             "CHARACTER": "`"
         },
         {
             "CODE": "123",
             "HEX": "7B",
             "BINARY": "1111011",
-            "HTML": "&# 123;",
+            "HTML": "&#123;",
             "CHARACTER": "{"
         },
         {
             "CODE": "124",
             "HEX": "7C",
             "BINARY": "1111100",
-            "HTML": "&# 124;",
+            "HTML": "&#124;",
             "CHARACTER": "|"
         },
         {
             "CODE": "125",
             "HEX": "7D",
             "BINARY": "1111101",
-            "HTML": "&# 125;",
+            "HTML": "&#125;",
             "CHARACTER": "}"
         },
         {
             "CODE": "126",
             "HEX": "7E",
             "BINARY": "1111110",
-            "HTML": "&# 126;",
+            "HTML": "&#126;",
             "CHARACTER": "~"
         }
     ],
@@ -470,70 +470,70 @@
             "CODE": "48",
             "HEX": "30",
             "BINARY": "110000",
-            "HTML": "&# 48;",
+            "HTML": "&#48;",
             "CHARACTER": "0"
         },
         {
             "CODE": "49",
             "HEX": "31",
             "BINARY": "110001",
-            "HTML": "&# 49;",
+            "HTML": "&#49;",
             "CHARACTER": "1"
         },
         {
             "CODE": "50",
             "HEX": "32",
             "BINARY": "110010",
-            "HTML": "&# 50;",
+            "HTML": "&#50;",
             "CHARACTER": "2"
         },
         {
             "CODE": "51",
             "HEX": "33",
             "BINARY": "110011",
-            "HTML": "&# 51;",
+            "HTML": "&#51;",
             "CHARACTER": "3"
         },
         {
             "CODE": "52",
             "HEX": "34",
             "BINARY": "110100",
-            "HTML": "&# 52;",
+            "HTML": "&#52;",
             "CHARACTER": "4"
         },
         {
             "CODE": "53",
             "HEX": "35",
             "BINARY": "110101",
-            "HTML": "&# 53;",
+            "HTML": "&#53;",
             "CHARACTER": "5"
         },
         {
             "CODE": "54",
             "HEX": "36",
             "BINARY": "110110",
-            "HTML": "&# 54;",
+            "HTML": "&#54;",
             "CHARACTER": "6"
         },
         {
             "CODE": "55",
             "HEX": "37",
             "BINARY": "110111",
-            "HTML": "&# 55;",
+            "HTML": "&#55;",
             "CHARACTER": "7"
         },
         {
             "CODE": "56",
             "HEX": "38",
             "BINARY": "111000",
-            "HTML": "&# 56;",
+            "HTML": "&#56;",
             "CHARACTER": "8"
         },
         {
             "CODE": "57",
             "HEX": "39",
             "BINARY": "111001",
-            "HTML": "&# 57;",
+            "HTML": "&#57;",
             "CHARACTER": "9"
         }
     ],
@@ -542,182 +542,182 @@
             "CODE": "65",
             "HEX": "41",
             "BINARY": "1000001",
-            "HTML": "&# 65;",
+            "HTML": "&#65;",
             "CHARACTER": "A"
         },
         {
             "CODE": "66",
             "HEX": "42",
             "BINARY": "1000010",
-            "HTML": "&# 66;",
+            "HTML": "&#66;",
             "CHARACTER": "B"
         },
         {
             "CODE": "67",
             "HEX": "43",
             "BINARY": "1000011",
-            "HTML": "&# 67;",
+            "HTML": "&#67;",
             "CHARACTER": "C"
         },
         {
             "CODE": "68",
             "HEX": "44",
             "BINARY": "1000100",
-            "HTML": "&# 68;",
+            "HTML": "&#68;",
             "CHARACTER": "D"
         },
         {
             "CODE": "69",
             "HEX": "45",
             "BINARY": "1000101",
-            "HTML": "&# 69;",
+            "HTML": "&#69;",
             "CHARACTER": "E"
         },
         {
             "CODE": "70",
             "HEX": "46",
             "BINARY": "1000110",
-            "HTML": "&# 70;",
+            "HTML": "&#70;",
             "CHARACTER": "F"
         },
         {
             "CODE": "71",
             "HEX": "47",
             "BINARY": "1000111",
-            "HTML": "&# 71;",
+            "HTML": "&#71;",
             "CHARACTER": "G"
         },
         {
             "CODE": "72",
             "HEX": "48",
             "BINARY": "1001000",
-            "HTML": "&# 72;",
+            "HTML": "&#72;",
             "CHARACTER": "H"
         },
         {
             "CODE": "73",
             "HEX": "49",
             "BINARY": "1001001",
-            "HTML": "&# 73;",
+            "HTML": "&#73;",
             "CHARACTER": "I"
         },
         {
             "CODE": "74",
             "HEX": "4A",
             "BINARY": "1001010",
-            "HTML": "&# 74;",
+            "HTML": "&#74;",
             "CHARACTER": "J"
         },
         {
             "CODE": "75",
             "HEX": "4B",
             "BINARY": "1001011",
-            "HTML": "&# 75;",
+            "HTML": "&#75;",
             "CHARACTER": "K"
         },
         {
             "CODE": "76",
             "HEX": "4C",
             "BINARY": "1001100",
-            "HTML": "&# 76;",
+            "HTML": "&#76;",
             "CHARACTER": "L"
         },
         {
             "CODE": "77",
             "HEX": "4D",
             "BINARY": "1001101",
-            "HTML": "&# 77;",
+            "HTML": "&#77;",
             "CHARACTER": "M"
         },
         {
             "CODE": "78",
             "HEX": "4E",
             "BINARY": "1001110",
-            "HTML": "&# 78;",
+            "HTML": "&#78;",
             "CHARACTER": "N"
         },
         {
             "CODE": "79",
             "HEX": "4F",
             "BINARY": "1001111",
-            "HTML": "&# 79;",
+            "HTML": "&#79;",
             "CHARACTER": "O"
         },
         {
             "CODE": "80",
             "HEX": "50",
             "BINARY": "1010000",
-            "HTML": "&# 80;",
+            "HTML": "&#80;",
             "CHARACTER": "P"
         },
         {
             "CODE": "81",
             "HEX": "51",
             "BINARY": "1010001",
-            "HTML": "&# 81;",
+            "HTML": "&#81;",
             "CHARACTER": "Q"
         },
         {
             "CODE": "82",
             "HEX": "52",
             "BINARY": "1010010",
-            "HTML": "&# 82;",
+            "HTML": "&#82;",
             "CHARACTER": "R"
         },
         {
             "CODE": "83",
             "HEX": "53",
             "BINARY": "1010011",
-            "HTML": "&# 83;",
+            "HTML": "&#83;",
             "CHARACTER": "S"
         },
         {
             "CODE": "84",
             "HEX": "54",
             "BINARY": "1010100",
-            "HTML": "&# 84;",
+            "HTML": "&#84;",
             "CHARACTER": "T"
         },
         {
             "CODE": "85",
             "HEX": "55",
             "BINARY": "1010101",
-            "HTML": "&# 85;",
+            "HTML": "&#85;",
             "CHARACTER": "U"
         },
         {
             "CODE": "86",
             "HEX": "56",
             "BINARY": "1010110",
-            "HTML": "&# 86;",
+            "HTML": "&#86;",
             "CHARACTER": "V"
         },
         {
             "CODE": "87",
             "HEX": "57",
             "BINARY": "1010111",
-            "HTML": "&# 87;",
+            "HTML": "&#87;",
             "CHARACTER": "W"
         },
         {
             "CODE": "88",
             "HEX": "58",
             "BINARY": "1011000",
-            "HTML": "&# 88;",
+            "HTML": "&#88;",
             "CHARACTER": "X"
         },
         {
             "CODE": "89",
             "HEX": "59",
             "BINARY": "1011001",
-            "HTML": "&# 89;",
+            "HTML": "&#89;",
             "CHARACTER": "Y"
         },
         {
             "CODE": "90",
             "HEX": "5A",
             "BINARY": "1011010",
-            "HTML": "&# 90;",
+            "HTML": "&#90;",
             "CHARACTER": "Z"
         }
     ],
@@ -726,182 +726,182 @@
             "CODE": "97",
             "HEX": "61",
             "BINARY": "1100001",
-            "HTML": "&# 97;",
+            "HTML": "&#97;",
             "CHARACTER": "a"
         },
         {
             "CODE": "98",
             "HEX": "62",
             "BINARY": "1100010",
-            "HTML": "&# 98;",
+            "HTML": "&#98;",
             "CHARACTER": "b"
         },
         {
             "CODE": "99",
             "HEX": "63",
             "BINARY": "1100011",
-            "HTML": "&# 99;",
+            "HTML": "&#99;",
             "CHARACTER": "c"
         },
         {
             "CODE": "100",
             "HEX": "64",
             "BINARY": "1100100",
-            "HTML": "&# 100;",
+            "HTML": "&#100;",
             "CHARACTER": "d"
         },
         {
             "CODE": "101",
             "HEX": "65",
             "BINARY": "1100101",
-            "HTML": "&# 101;",
+            "HTML": "&#101;",
             "CHARACTER": "e"
         },
         {
             "CODE": "102",
             "HEX": "66",
             "BINARY": "1100110",
-            "HTML": "&# 102;",
+            "HTML": "&#102;",
             "CHARACTER": "f"
         },
         {
             "CODE": "103",
             "HEX": "67",
             "BINARY": "1100111",
-            "HTML": "&# 103;",
+            "HTML": "&#103;",
             "CHARACTER": "g"
         },
         {
             "CODE": "104",
             "HEX": "68",
             "BINARY": "1101000",
-            "HTML": "&# 104;",
+            "HTML": "&#104;",
             "CHARACTER": "h"
         },
         {
             "CODE": "105",
             "HEX": "69",
             "BINARY": "1101001",
-            "HTML": "&# 105;",
+            "HTML": "&#105;",
             "CHARACTER": "i"
         },
         {
             "CODE": "106",
             "HEX": "6A",
             "BINARY": "1101010",
-            "HTML": "&# 106;",
+            "HTML": "&#106;",
             "CHARACTER": "j"
         },
         {
             "CODE": "107",
             "HEX": "6B",
             "BINARY": "1101011",
-            "HTML": "&# 107;",
+            "HTML": "&#107;",
             "CHARACTER": "k"
         },
         {
             "CODE": "108",
             "HEX": "6C",
             "BINARY": "1101100",
-            "HTML": "&# 108;",
+            "HTML": "&#108;",
             "CHARACTER": "l"
         },
         {
             "CODE": "109",
             "HEX": "6D",
             "BINARY": "1101101",
-            "HTML": "&# 109;",
+            "HTML": "&#109;",
             "CHARACTER": "m"
         },
         {
             "CODE": "110",
             "HEX": "6E",
             "BINARY": "1101110",
-            "HTML": "&# 110;",
+            "HTML": "&#110;",
             "CHARACTER": "n"
         },
         {
             "CODE": "111",
             "HEX": "6F",
             "BINARY": "1101111",
-            "HTML": "&# 111;",
+            "HTML": "&#111;",
             "CHARACTER": "o"
         },
         {
             "CODE": "112",
             "HEX": "70",
             "BINARY": "1110000",
-            "HTML": "&# 112",
+            "HTML": "&#112",
             "CHARACTER": "p"
         },
         {
             "CODE": "113",
             "HEX": "71",
             "BINARY": "1110001",
-            "HTML": "&# 113;",
+            "HTML": "&#113;",
             "CHARACTER": "q"
         },
         {
             "CODE": "114",
             "HEX": "72",
             "BINARY": "1110010",
-            "HTML": "&# 114;",
+            "HTML": "&#114;",
             "CHARACTER": "r"
         },
         {
             "CODE": "115",
             "HEX": "73",
             "BINARY": "1110011",
-            "HTML": "&# 115;",
+            "HTML": "&#115;",
             "CHARACTER": "s"
         },
         {
             "CODE": "116",
             "HEX": "74",
             "BINARY": "1110100",
-            "HTML": "&# 116;",
+            "HTML": "&#116;",
             "CHARACTER": "t"
         },
         {
             "CODE": "117",
             "HEX": "75",
             "BINARY": "1110101",
-            "HTML": "&# 117;",
+            "HTML": "&#117;",
             "CHARACTER": "u"
         },
         {
             "CODE": "118",
             "HEX": "76",
             "BINARY": "1110110",
-            "HTML": "&# 118;",
+            "HTML": "&#118;",
             "CHARACTER": "v"
         },
         {
             "CODE": "119",
             "HEX": "77",
             "BINARY": "1110111",
-            "HTML": "&# 119;",
+            "HTML": "&#119;",
             "CHARACTER": "w"
         },
         {
             "CODE": "120",
             "HEX": "78",
             "BINARY": "1111000",
-            "HTML": "&# 120;",
+            "HTML": "&#120;",
             "CHARACTER": "x"
         },
         {
             "CODE": "121",
             "HEX": "79",
             "BINARY": "1111001",
-            "HTML": "&# 121;",
+            "HTML": "&#121;",
             "CHARACTER": "y"
         },
         {
             "CODE": "122",
             "HEX": "7A",
             "BINARY": "1111010",
-            "HTML": "&# 122;",
+            "HTML": "&#122;",
             "CHARACTER": "z"
         }
     ]

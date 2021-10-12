@@ -13,7 +13,7 @@ $.ajax({
                         "<td id=\"char\">" + data.UPPERCASE_ALPHABET[i].CHARACTER + "</td>" + 
                         "<td>" + data.UPPERCASE_ALPHABET[i].CODE      + "</td>" + 
                         "<td>" + data.UPPERCASE_ALPHABET[i].HEX       + "</td>" + 
-                        "<td>" + data.UPPERCASE_ALPHABET[i].HTML      + "</td>" + 
+                        "<td><xmp>" + data.UPPERCASE_ALPHABET[i].HTML      + "</xmp></td>" + 
                         "<td>" + data.UPPERCASE_ALPHABET[i].BINARY    + "</td>" + 
                     "</tr>";
             $("#uppercase-alphabet tbody").append(uppercAlphabetTblContent);
@@ -25,7 +25,7 @@ $.ajax({
                         "<td id=\"char\">" + data.LOWERCASE_ALPHABET[i].CHARACTER + "</td>" + 
                         "<td>" + data.LOWERCASE_ALPHABET[i].CODE      + "</td>" + 
                         "<td>" + data.LOWERCASE_ALPHABET[i].HEX       + "</td>" + 
-                        "<td>" + data.UPPERCASE_ALPHABET[i].HTML      + "</td>" + 
+                        "<td><xmp>" + data.UPPERCASE_ALPHABET[i].HTML      + "</xmp></td>" + 
                         "<td>" + data.LOWERCASE_ALPHABET[i].BINARY    + "</td>" + 
                     "</tr>";
             $("#lowercase-alphabet tbody").append(lowercAlphabetTblContent);
@@ -60,7 +60,7 @@ $(document).ready(function(){
                                         "<td id=\"char\">" + data.UPPERCASE_ALPHABET[i].CHARACTER + "</td>" + 
                                         "<td>" + data.UPPERCASE_ALPHABET[i].CODE      + "</td>" + 
                                         "<td>" + data.UPPERCASE_ALPHABET[i].HEX       + "</td>" + 
-                                        "<td>" + data.UPPERCASE_ALPHABET[i].HTML      + "</td>" + 
+                                        "<td><xmp>" + data.UPPERCASE_ALPHABET[i].HTML      + "</xmp></td>" + 
                                         "<td>" + data.UPPERCASE_ALPHABET[i].BINARY    + "</td>" + 
                                     "</tr>";
                             $("#uppercase-alphabet tbody").append(uppercAlphabetTblContent);
@@ -72,7 +72,7 @@ $(document).ready(function(){
                                         "<td id=\"char\">" + data.LOWERCASE_ALPHABET[i].CHARACTER + "</td>" + 
                                         "<td>" + data.LOWERCASE_ALPHABET[i].CODE      + "</td>" + 
                                         "<td>" + data.LOWERCASE_ALPHABET[i].HEX       + "</td>" + 
-                                        "<td>" + data.UPPERCASE_ALPHABET[i].HTML      + "</td>" + 
+                                        "<td><xmp>" + data.UPPERCASE_ALPHABET[i].HTML      + "</xmp></td>" + 
                                         "<td>" + data.LOWERCASE_ALPHABET[i].BINARY    + "</td>" + 
                                     "</tr>";
                             $("#lowercase-alphabet tbody").append(lowercAlphabetTblContent);
@@ -99,7 +99,7 @@ $(document).ready(function(){
                                         "<td id=\"char\">" + data.NUMBERS[i].CHARACTER + "</td>" + 
                                         "<td>" + data.NUMBERS[i].CODE      + "</td>" + 
                                         "<td>" + data.NUMBERS[i].HEX       + "</td>" + 
-                                        "<td>" + data.NUMBERS[i].HTML      + "</td>" + 
+                                        "<td><xmp>" + data.NUMBERS[i].HTML      + "</xmp></td>" + 
                                         "<td>" + data.NUMBERS[i].BINARY    + "</td>" + 
                                     "</tr>";
                             $("#uppercase-alphabet tbody").append(numberTblContent);
@@ -126,7 +126,7 @@ $(document).ready(function(){
                                         "<td id=\"char\">" + data.SYMBOLS[i].CHARACTER + "</td>" + 
                                         "<td>" + data.SYMBOLS[i].CODE      + "</td>" + 
                                         "<td>" + data.SYMBOLS[i].HEX       + "</td>" + 
-                                        "<td>" + data.SYMBOLS[i].HTML      + "</td>" + 
+                                        "<td><xmp>" + data.SYMBOLS[i].HTML      + "</xmp></td>" + 
                                         "<td>" + data.SYMBOLS[i].BINARY    + "</td>" + 
                                     "</tr>";
                             $("#uppercase-alphabet tbody").append(symbolTblContent);
@@ -153,7 +153,7 @@ $(document).ready(function(){
                                         "<td id=\"char\">" + data.CONTROL_CHARACTER[i].CHARACTER + "</td>" + 
                                         "<td>" + data.CONTROL_CHARACTER[i].CODE      + "</td>" + 
                                         "<td>" + data.CONTROL_CHARACTER[i].HEX       + "</td>" + 
-                                        "<td>" + data.CONTROL_CHARACTER[i].HTML      + "</td>" + 
+                                        "<td><xmp>" + data.CONTROL_CHARACTER[i].HTML      + "</xmp></td>" + 
                                         "<td>" + data.CONTROL_CHARACTER[i].BINARY    + "</td>" + 
                                     "</tr>";
                             $("#uppercase-alphabet tbody").append(controlCharTblContent);
