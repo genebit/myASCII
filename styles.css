@@ -3,20 +3,20 @@
     font-weight: 500;
 } */
 h1 {
-    font-family: 'Roboto';
+    font-family: 'JetBrains Mono', monospace;
     color: rgb(43, 43, 43);
     font-size: 50px;  
     font-weight: 800;
 }
 h2, h3, h4, th {
-    font-family: 'Roboto';
+    font-family: 'JetBrains Mono';
     color: rgb(43, 43, 43);
     font-weight: 700;
 }
 td {
-    font-family: 'Roboto Mono' !important;
+    font-family: 'JetBrains Mono';
     font-weight: 500;
-    font-size: 14px;
+    font-size: 17px;
 }
 
 body {
@@ -30,6 +30,10 @@ nav {
     z-index: 1;
 }
 
+#char {
+    color: #ff4444;
+    font-weight: 800;
+}
 .jumbotron {
     padding: 4rem 2rem;
     /* margin-bottom: 2rem; */

@@ -24,7 +24,7 @@
         <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="styles.css">
     <script src="script.js"></script>
@@ -83,53 +83,62 @@
                     <option value="Alphabet">Alphabet</option>
                     <option value="Numbers">Numbers</option>
                     <option value="Symbols">Symbols</option>
-                    <option value="Control_Char">Control Characters</option>
+                    <option value="Control Characters">Control Characters</option>
                 </select>
                 <button id="loadbtn" class="btn btn-success" style="margin-top: 20px;">Load</button>
             </div>
         </div>
         <div class="col-md-4"></div>
     </div>
-    <div class="col d-flex justify-content-center">
-        <div class="card" style="width: 900px;">
-            <div class="card-heading">
-                <div class="col-md-12" style="margin-top: 20px;">
-                    <h2 class="text-center">ALPHABET</h2>
-                </div>
-            </div>
-            <div class="card-body">
-                <div class="row">
-                    <div class="col-md-6">
-                        <h4>UPPERCASE</h4>
-                        <hr/>
-                        <table id="uppercase-alphabet" class="table table-sm table-hover table-borderless">
-                            <thead class="text-center">
-                                <tr>
-                                    <th>Char</th>
-                                    <th>Code</th>
-                                    <th>Hex</th>
-                                    <th>HTML</th>
-                                    <th>Binary</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-center"></tbody>
-                        </table>
+    <div id="asciitbl"> 
+        <div class="col d-flex justify-content-center">
+            <div class="card" style="width: 900px;">
+                <div class="card-heading">
+                    <div class="col-md-12" style="margin-top: 20px;">
+                        <h2 class="text-center" id="category">ALPHABET</h2>
                     </div>
-                    <div class="col-md-6">
-                        <h4>LOWECASE</h4>
-                        <hr/>
-                        <table id="lowercase-alphabet" class="table table-sm table-hover table-borderless">
-                            <thead class="text-center">
-                                <tr>
-                                    <th>Char</th>
-                                    <th>Code</th>
-                                    <th>Hex</th>
-                                    <th>HTML</th>
-                                    <th>Binary</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-center"></tbody>
-                        </table>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-1"></div>
+                        <div class="col-md-10">
+                            <h3 id="upperctitle">UPPERCASE</h3>
+                            <hr/>
+                            <table id="uppercase-alphabet" class="table table-sm table-hover">
+                                <thead class="text-center">
+                                    <tr>
+                                        <th>Char</th>
+                                        <th>Code</th>
+                                        <th>Hex</th>
+                                        <th>HTML</th>
+                                        <th>Binary</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="text-center"></tbody>
+                            </table>
+                        </div>
+                        <div class="col-md-1"></div>
+
+                        <div style="margin-top: 30px;"></div>
+                        
+                        <div class="col-md-1"></div>
+                        <div class="col-md-10" id="lowercase-alphabet">
+                            <h3>LOWECASE</h4>
+                            <hr/>
+                            <table class="table table-sm table-hover">
+                                <thead class="text-center">
+                                    <tr>
+                                        <th>Char</th>
+                                        <th>Code</th>
+                                        <th>Hex</th>
+                                        <th>HTML</th>
+                                        <th>Binary</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="text-center"></tbody>
+                            </table>
+                        </div>
+                        <div class="col-md-1"></div>
                     </div>
                 </div>
             </div>
