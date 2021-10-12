@@ -28,5 +28,4 @@ $.ajax({
             $("#lowercase-alphabet tbody").append(lowercAlphabetTblContent);
         }
     }
-    
 });
