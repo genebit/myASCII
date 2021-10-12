@@ -1,166 +1,85 @@
-$.ajax({
-    dataType: "json",
-    url: "data/data.json",
-    success: function(result) {
-        $("#uppercase-alphabet tbody").empty();
-        $("#lowercase-alphabet tbody").empty();
 
-        var data = JSON.parse(JSON.stringify(result));
-        
-        var uppercAlphabetTblContent;
-        for (var i = 0; i < data.UPPERCASE_ALPHABET.length; i++) {
-            uppercAlphabetTblContent = "<tr>" + 
-                        "<td id=\"char\">" + data.UPPERCASE_ALPHABET[i].CHARACTER + "</td>" + 
-                        "<td>" + data.UPPERCASE_ALPHABET[i].CODE      + "</td>" + 
-                        "<td>" + data.UPPERCASE_ALPHABET[i].HEX       + "</td>" + 
-                        "<td><xmp>" + data.UPPERCASE_ALPHABET[i].HTML      + "</xmp></td>" + 
-                        "<td>" + data.UPPERCASE_ALPHABET[i].BINARY    + "</td>" + 
-                    "</tr>";
-            $("#uppercase-alphabet tbody").append(uppercAlphabetTblContent);
-        }
-
-        var lowercAlphabetTblContent;
-        for (var i = 0; i < data.LOWERCASE_ALPHABET.length; i++) {
-            lowercAlphabetTblContent = "<tr>" + 
-                        "<td id=\"char\">" + data.LOWERCASE_ALPHABET[i].CHARACTER + "</td>" + 
-                        "<td>" + data.LOWERCASE_ALPHABET[i].CODE      + "</td>" + 
-                        "<td>" + data.LOWERCASE_ALPHABET[i].HEX       + "</td>" + 
-                        "<td><xmp>" + data.UPPERCASE_ALPHABET[i].HTML      + "</xmp></td>" + 
-                        "<td>" + data.LOWERCASE_ALPHABET[i].BINARY    + "</td>" + 
-                    "</tr>";
-            $("#lowercase-alphabet tbody").append(lowercAlphabetTblContent);
-        }
-    }
-});
+var data;
 
 $(document).ready(function(){
+    // Load default table
+    loadAlphanumericTable();
+
     $("#loadbtn").click(function() {
-        $("#asciitbl").hide(500);
-        $("#asciitbl").show(500); 
+        $("#ascii-table").hide(500);
+        $("#ascii-table").show(500); 
 
-        // Change the title of the table
-        $("#category").html($("#options").val().toUpperCase())
+        let selectedCategory = $("#options").val();
+        $("#category-title").html(selectedCategory.toUpperCase())
 
-        switch ($("#options").val()) {
-            case "Alphabet":
-                $.ajax({
-                    dataType: "json",
-                    url: "data/data.json",
-                    success: function(result) {
-                        $("#uppercase-alphabet tbody").empty();
-                        $("#lowercase-alphabet tbody").empty();
-                        $("#lowercase-alphabet").show(500);
-                        $("#upperctitle").show(500);
-
-                        var data = JSON.parse(JSON.stringify(result));
-                        
-                        var uppercAlphabetTblContent;
-                        for (var i = 0; i < data.UPPERCASE_ALPHABET.length; i++) {
-                            uppercAlphabetTblContent = "<tr>" + 
-                                        "<td id=\"char\">" + data.UPPERCASE_ALPHABET[i].CHARACTER + "</td>" + 
-                                        "<td>" + data.UPPERCASE_ALPHABET[i].CODE      + "</td>" + 
-                                        "<td>" + data.UPPERCASE_ALPHABET[i].HEX       + "</td>" + 
-                                        "<td><xmp>" + data.UPPERCASE_ALPHABET[i].HTML      + "</xmp></td>" + 
-                                        "<td>" + data.UPPERCASE_ALPHABET[i].BINARY    + "</td>" + 
-                                    "</tr>";
-                            $("#uppercase-alphabet tbody").append(uppercAlphabetTblContent);
-                        }
-                
-                        var lowercAlphabetTblContent;
-                        for (var i = 0; i < data.LOWERCASE_ALPHABET.length; i++) {
-                            lowercAlphabetTblContent = "<tr>" + 
-                                        "<td id=\"char\">" + data.LOWERCASE_ALPHABET[i].CHARACTER + "</td>" + 
-                                        "<td>" + data.LOWERCASE_ALPHABET[i].CODE      + "</td>" + 
-                                        "<td>" + data.LOWERCASE_ALPHABET[i].HEX       + "</td>" + 
-                                        "<td><xmp>" + data.UPPERCASE_ALPHABET[i].HTML      + "</xmp></td>" + 
-                                        "<td>" + data.LOWERCASE_ALPHABET[i].BINARY    + "</td>" + 
-                                    "</tr>";
-                            $("#lowercase-alphabet tbody").append(lowercAlphabetTblContent);
-                        }
-                    }
-                });
-                break;
-        
-            case "Numbers":
-                $.ajax({
-                    dataType: "json",
-                    url: "data/data.json",
-                    success: function(result) {
-                        $("#uppercase-alphabet tbody").empty();
-                        $("#lowercase-alphabet tbody").empty();
-                        $("#lowercase-alphabet").hide(500);
-                        $("#upperctitle").hide(500);
-
-                        var data = JSON.parse(JSON.stringify(result));
-                        
-                        var numberTblContent;
-                        for (var i = 0; i < data.NUMBERS.length; i++) {
-                            numberTblContent = "<tr>" + 
-                                        "<td id=\"char\">" + data.NUMBERS[i].CHARACTER + "</td>" + 
-                                        "<td>" + data.NUMBERS[i].CODE      + "</td>" + 
-                                        "<td>" + data.NUMBERS[i].HEX       + "</td>" + 
-                                        "<td><xmp>" + data.NUMBERS[i].HTML      + "</xmp></td>" + 
-                                        "<td>" + data.NUMBERS[i].BINARY    + "</td>" + 
-                                    "</tr>";
-                            $("#uppercase-alphabet tbody").append(numberTblContent);
-                        }
-                    }
-                });
-                break;
-
-            case "Symbols":
-                $.ajax({
-                    dataType: "json",
-                    url: "data/data.json",
-                    success: function(result) {
-                        $("#uppercase-alphabet tbody").empty();
-                        $("#lowercase-alphabet tbody").empty();
-                        $("#lowercase-alphabet").hide(500);
-                        $("#upperctitle").hide(500);
-
-                        var data = JSON.parse(JSON.stringify(result));
-                        
-                        var symbolTblContent;
-                        for (var i = 0; i < data.SYMBOLS.length; i++) {
-                            symbolTblContent = "<tr>" + 
-                                        "<td id=\"char\">" + data.SYMBOLS[i].CHARACTER + "</td>" + 
-                                        "<td>" + data.SYMBOLS[i].CODE      + "</td>" + 
-                                        "<td>" + data.SYMBOLS[i].HEX       + "</td>" + 
-                                        "<td><xmp>" + data.SYMBOLS[i].HTML      + "</xmp></td>" + 
-                                        "<td>" + data.SYMBOLS[i].BINARY    + "</td>" + 
-                                    "</tr>";
-                            $("#uppercase-alphabet tbody").append(symbolTblContent);
-                        }
-                    }
-                });
-                break;
-
-            case "Control Characters":
-                $.ajax({
-                    dataType: "json",
-                    url: "data/data.json",
-                    success: function(result) {
-                        $("#uppercase-alphabet tbody").empty();
-                        $("#lowercase-alphabet tbody").empty();
-                        $("#lowercase-alphabet").hide(500);
-                        $("#upperctitle").hide(500);
-
-                        var data = JSON.parse(JSON.stringify(result));
-                        
-                        var controlCharTblContent;
-                        for (var i = 0; i < data.CONTROL_CHARACTER.length; i++) {
-                            controlCharTblContent = "<tr>" + 
-                                        "<td id=\"char\">" + data.CONTROL_CHARACTER[i].CHARACTER + "</td>" + 
-                                        "<td>" + data.CONTROL_CHARACTER[i].CODE      + "</td>" + 
-                                        "<td>" + data.CONTROL_CHARACTER[i].HEX       + "</td>" + 
-                                        "<td><xmp>" + data.CONTROL_CHARACTER[i].HTML      + "</xmp></td>" + 
-                                        "<td>" + data.CONTROL_CHARACTER[i].BINARY    + "</td>" + 
-                                    "</tr>";
-                            $("#uppercase-alphabet tbody").append(controlCharTblContent);
-                        }
-                    }
-                });
-                break;
+        // Load different table depending on the selected category
+        switch (selectedCategory) {
+            case "Alphabet":            loadAlphanumericTable();           break;
+            case "Numbers" :            loadTable(data.NUMBERS);           break;
+            case "Symbols" :            loadTable(data.SYMBOLS);           break;
+            case "Control Characters":  loadTable(data.CONTROL_CHARACTER); break;
         }
     });
 });
+
+var loadTable = function(category) {
+    $.ajax({
+        dataType: "json",
+        url: "data/data.json",
+        success: function() {
+            $("#main-table tbody").empty();
+            $("#secondary-table tbody").empty();
+            $("#secondary-table").hide(500);
+            $("#uppercase-title").hide(500);
+            
+            var content;
+            for (var i = 0; i < category.length; i++) {
+                content = `<tr>
+                            <td class=\"char\">${category[i].CHARACTER}</td>
+                            <td>${category[i].CODE}</td>
+                            <td>${category[i].HEX}</td>
+                            <td><xmp>${category[i].HTML}</xmp></td>
+                            <td>${category[i].BINARY}</td></tr>`;
+                            
+                $("#main-table tbody").append(content);
+            }
+        }
+    });
+}
+
+var loadAlphanumericTable = function() {
+    $.ajax({
+        dataType: "json",
+        url: "data/data.json",
+        success: function(result) {
+            $("#main-table tbody").empty();
+            $("#secondary-table tbody").empty();
+    
+            data = JSON.parse(JSON.stringify(result));
+            
+            var tableContent1;
+            for (var i = 0; i < data.UPPERCASE_ALPHABET.length; i++) {
+                tableContent1 = `<tr>
+                            <td class=\"char\">${data.UPPERCASE_ALPHABET[i].CHARACTER}</td>
+                            <td>${data.UPPERCASE_ALPHABET[i].CODE}</td>
+                            <td>${data.UPPERCASE_ALPHABET[i].HEX}</td>
+                            <td><xmp>${data.UPPERCASE_ALPHABET[i].HTML}</xmp></td>
+                            <td>${data.UPPERCASE_ALPHABET[i].BINARY}</td></tr>`;
+                            
+                $("#main-table tbody").append(tableContent1);
+            }
+    
+            var tableContent2;
+            for (var i = 0; i < data.LOWERCASE_ALPHABET.length; i++) {
+                tableContent2 = `<tr>
+                            <td class=\"char\">${data.LOWERCASE_ALPHABET[i].CHARACTER}</td>
+                            <td>${data.LOWERCASE_ALPHABET[i].CODE}</td>
+                            <td>${data.LOWERCASE_ALPHABET[i].HEX}</td>
+                            <td><xmp>${data.UPPERCASE_ALPHABET[i].HTML}</xmp></td>
+                            <td>${data.LOWERCASE_ALPHABET[i].BINARY}</td></tr>`;
+    
+                $("#secondary-table tbody").append(tableContent2);
+            }
+        }
+    });
+}
