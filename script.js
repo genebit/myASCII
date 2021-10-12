@@ -54,7 +54,9 @@ var loadAlphanumericTable = function() {
         success: function(result) {
             $("#main-table tbody").empty();
             $("#secondary-table tbody").empty();
-    
+            $("#uppercase-title").show(500);
+            $("#secondary-table").show(500);
+
             data = JSON.parse(JSON.stringify(result));
             
             var tableContent1;
