@@ -103,5 +103,6 @@ xmp {
 	color: black;
 	background-color: var(--white);
 	border-radius: 10px;
+	width: 100%;
 	box-shadow: var(--box-shadow-param);
 }
