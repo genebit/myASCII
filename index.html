@@ -21,10 +21,13 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
+    <!-- Reference to Fontawesome -->
+    <link href="resources/fontawesome_v5.15/css/fontawesome.css" rel="stylesheet" />
+    <link href="resources/fontawesome_v5.15/css/brands.css" rel="stylesheet" />
+    <link href="resources/fontawesome_v5.15/css/solid.css" rel="stylesheet" />
     <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
     <link rel="stylesheet" href="styles.css">
     <script src="script.js"></script>
@@ -32,15 +35,18 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand btn btn-outline-dark" style="border-radius: 20px;">Genebit.Github.io</a>
+            <a class="navbar-brand btn btn-outline-light" style="border-radius: 20px">Genebit.Github.io</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="menu-bar">
+                    <i class="fas fa-bars"></i>
+                </span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <hr style="color: white" />
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page"
@@ -52,10 +58,17 @@
                             Project
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="https://genebit.github.io/myASCII/">MyASCII</a></li>
-                            <li><a class="dropdown-item" href="https://genebit.github.io/p5js-audio-visualization/">Audio Visualization</a></li>
-                            <li><a class="dropdown-item" href="https://genebit.github.io/p5js-double-pendulum/">Double
-                                    Pendulum</a></li>
+                            <li>
+                                <a class="dropdown-item" href="https://genebit.github.io/myASCII/">MyASCII</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item"
+                                    href="https://genebit.github.io/p5js-audio-visualization/">Audio Visualization</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="https://genebit.github.io/p5js-double-pendulum/">Double
+                                    Pendulum</a>
+                            </li>
                         </ul>
                     </li>
                 </ul>
@@ -71,8 +84,8 @@
         <div class="col-md-4">
             <div class="row m-4">
                 <div class="col-md-4"></div>
-                <p class="text-center">Other Tables</p> 
-                <hr>
+                <p class="text-center">Other Tables</p>
+                <hr style="color: white;">
                 <select class="form-select" id="options">
                     <option value="Alphabet">Alphabet</option>
                     <option value="Numbers">Numbers</option>
@@ -118,19 +131,19 @@
                         <div class="col-md-1"></div>
                         <div id="secondary-table" class="col-md-10">
                             <h3>LOWECASE</h4>
-                            <hr />
-                            <table class="table table-sm table-hover">
-                                <thead class="text-center">
-                                    <tr>
-                                        <th>Char</th>
-                                        <th>Dec</th>
-                                        <th>Hex</th>
-                                        <th>HTML</th>
-                                        <th>Binary</th>
-                                    </tr>
-                                </thead>
-                                <tbody class="text-center"></tbody>
-                            </table>
+                                <hr />
+                                <table class="table table-sm table-hover">
+                                    <thead class="text-center">
+                                        <tr>
+                                            <th>Char</th>
+                                            <th>Dec</th>
+                                            <th>Hex</th>
+                                            <th>HTML</th>
+                                            <th>Binary</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="text-center"></tbody>
+                                </table>
                         </div>
                         <div class="col-md-1"></div>
                     </div>
@@ -138,6 +151,11 @@
             </div>
         </div>
     </div>
+    <br>
+    <footer>
+        <hr style="color: white; margin: 0;" />
+        <p>Built by @Gene - 2020. <br>Hosted by Github Pages.</p>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
