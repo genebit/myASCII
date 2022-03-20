@@ -1,19 +1,41 @@
-@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap");
+@font-face {
+	font-family: "SFMono Bold";
+	src: url("assets/fonts/SFMonoBold.ttf");
+}
+@font-face {
+	font-family: "SFMono Regular";
+	src: url("assets/fonts/SFMonoRegular.ttf");
+}
+@font-face {
+	font-family: "SFMono Medium";
+	src: url("assets/fonts/SFMonoMedium.ttf");
+}
 :root {
 	--dark: #212529;
 	--white: #e4e4e4;
-	--orange: #ff7316;
-	--red: #e64c41;
-	--blue-green: #7c978e;
-
-	--font: "JetBrains Mono", sans-serif;
+	--red: #de3f3f;
 	--default-font-size: 500;
+	--selection-color: #959bb9;
 
-	--box-shadow-param: 0px 0px 8px 0px;
+	--box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.8);
 	--left-right-margin: 0px 10px;
 }
+::selection {
+	background-color: var(--selection-color);
+}
+body::-webkit-scrollbar {
+	width: 0.5rem;
+}
+body::-webkit-scrollbar-track {
+	background-color: var(--dark);
+}
+body::-webkit-scrollbar-thumb {
+	background-color: var(--white);
+	border-radius: 1rem;
+}
+
 * {
-	font-family: var(--font);
+	font-family: "SFMono Medium", sans-serif;
 	font-weight: var(--default-font-size);
 	margin: 0;
 	padding: 0;
@@ -21,9 +43,10 @@
 h1,
 h2,
 h3,
-th {
+th,
+.navbar-brand {
 	color: var(--dark);
-	font-weight: 700;
+	font-family: "SFMono Bold", sans-serif;
 }
 body {
 	background-color: var(--dark);
@@ -52,7 +75,7 @@ img {
 /* NAVBAR */
 nav {
 	color: black;
-	box-shadow: var(--box-shadow-param);
+	box-shadow: var(--box-shadow);
 	z-index: 1;
 }
 nav .navbar-nav .nav-link,
@@ -83,6 +106,9 @@ xmp {
 	margin: 0;
 	padding: 0;
 }
+hr {
+	color: white;
+}
 .char {
 	color: var(--red);
 	font-weight: 700;
@@ -95,14 +121,10 @@ xmp {
 .jumbotron p {
 	color: var(--white);
 }
-.btn.btn-success {
-	color: var(--dark);
-	background-color: var(--blue-green);
-}
 .card {
-	color: black;
+	color: var(--dark);
 	background-color: var(--white);
 	border-radius: 10px;
 	width: 100%;
-	box-shadow: var(--box-shadow-param);
+	box-shadow: var(--box-shadow);
 }

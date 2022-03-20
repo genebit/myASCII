@@ -4,7 +4,7 @@ $(document).ready(function () {
 	// Load default table
 	loadAlphanumericTable()
 
-	$("#loadbtn").click(function () {
+	$("#options").change(function () {
 		$("#ascii-table").hide(500)
 		$("#ascii-table").show(500)
 
