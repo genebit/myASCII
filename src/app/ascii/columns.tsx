@@ -38,7 +38,7 @@ const HeaderSort = ({ column, header }: any) => {
 
 const CellPill = ({ value }: any) => {
   return (
-    <div className="bg-slate-200 dark:bg-neutral-900 w-full text-center rounded-sm font-[family-name:var(--font-geist-sans)]">
+    <div className="bg-neutral-200 dark:bg-neutral-900 w-full text-center rounded-sm font-[family-name:var(--font-geist-sans)]">
       <b>{value}</b>
     </div>
   );

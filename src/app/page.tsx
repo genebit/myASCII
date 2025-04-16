@@ -5,7 +5,16 @@ import { useEffect, useState } from "react";
 import { AsciiGroup, asciiTable } from "@/lib/ascii";
 import { DataTable } from "./ascii/data-table";
 import { columns } from "./ascii/columns";
-import { Briefcase, Github, Linkedin, Moon, Sun } from "lucide-react";
+import {
+  Briefcase,
+  Github,
+  Linkedin,
+  Moon,
+  Speaker,
+  Sun,
+  Volume,
+  Volume2,
+} from "lucide-react";
 import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area";
 import {
   DropdownMenu,
@@ -64,8 +73,21 @@ export default function Home() {
       <div className="flex justify-center mt-20 h-screen font-[family-name:var(--font-geist-sans)] relative">
         <div className="flex flex-col gap-20">
           <main className="flex flex-col row-start-2 items-center sm:items-start w-[20rem] sm:w-[30rem] md:w-[45rem] xl:w-[70rem]">
-            <header>
-              <h1 className="text-6xl mb-4">ASCII Table</h1>
+            <header className="mb-3">
+              <h1 className="text-6xl mb-4">
+                ASCII Table{" "}
+                <span className="font-serif text-3xl italic opacity-30">
+                  noun
+                </span>
+              </h1>
+              <div className="rounded-full bg-neutral-200 dark:bg-neutral-900 px-5 py-1.5 w-max flex gap-2 items-center mb-3">
+                ˈa-skē
+                <Volume2 size={18} />
+              </div>
+              <p>
+                : a code for representing alphanumeric information. Short for
+                <b>American Standard Code for Information Interchange.</b>
+              </p>
             </header>
             <section className="w-full overflow-clip">
               <Tabs
@@ -102,8 +124,8 @@ export default function Home() {
               </Tabs>
             </section>
           </main>
-          <footer className="row-start-3 flex gap-[24px] md:flex-row items-center justify-center flex-col">
-            <h3 className="text-slate-600">Johcel Gene T. Bitara</h3>
+          <footer className="row-start-3 py-10 flex gap-[24px] md:flex-row items-center justify-center flex-col">
+            <h3 className="text-neutral-600">Johcel Gene T. Bitara</h3>
             <a
               className="flex items-center gap-2 hover:underline hover:underline-offset-4"
               href="http://genbit-portfolio.web.app/"
